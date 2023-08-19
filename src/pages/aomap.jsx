@@ -38,7 +38,7 @@ export default function AOMap() {
             }} 
         >
           <GeoJsonLoader
-            link="/api/airspace"
+            link="/api/testloader"
             styleCallback={(feature, hover) =>
               hover
                 ? { fill: '#93c0d099', strokeWidth: '2'}
